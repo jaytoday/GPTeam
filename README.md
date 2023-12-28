@@ -3,10 +3,10 @@
   <p align="center">
     <img src="https://img.shields.io/github/stars/101dotxyz/gpteam.svg?style=for-the-badge&">
     <img src="https://img.shields.io/github/license/101dotxyz/gpteam.svg?style=for-the-badge&">
-    <br />
-  <a href="https://github.com/101dotxyz/gpteam/issues"><b>Report Bug</b></a>
-   | 
-  <a href="https://www.youtube.com/watch?v=cIxhI1d6NsM"><b>Video Demo</b></a>
+    <br /> 
+  <a href="https://www.gpteamai.com/ "><b>Web App</b></a>
+    |  
+  <a href="https://blog.langchain.dev/gpteam-a-multi-agent-simulation/"><b>Blog Post</b></a>
   
   </p>
     <div align="center">
@@ -14,9 +14,18 @@
   </div>
 </p>
 
+## NEW! The GPTeam web app is here! ✨ 
+Try it out: https://www.gpteamai.com/ 
+
+
+
 ## About GPTeam
 
 GPTeam uses GPT-4 to create multiple agents who collaborate to achieve predefined goals. The main objective of this project is to explore the potential of GPT models in enhancing multi-agent productivity and effective communication.
+
+See a video demo here: https://www.youtube.com/watch?v=cIxhI1d6NsM
+
+Read more about the architecture here: https://blog.langchain.dev/gpteam-a-multi-agent-simulation/
 
 ## Getting started
 
@@ -39,6 +48,7 @@ GPTeam employs separate agents, each equipped with a memory, that interact with 
 ## Viewing Agents
 
 The world is a busy place! To get a view of what different agents are doing whilst the world is running, you can visit the `agents/` folder where there is a txt file for each agent containing a summary of their current state.
+
 ## Changing the world
 
 To change the world, all you need to do is:
@@ -48,12 +58,15 @@ To change the world, all you need to do is:
 3. Run the world again: `poetry run world`
 
 ## Setting up the Discord Integration
+
 Read through the dedicated [Discord setup docs](DISCORD.md)
 
 ## Using with Anthropic Claude
+
 Make sure you have an `ANTHROPIC_API_KEY` in your env, then you can use `poetry run world --claude` which will run the world using `claude-v1` for some calls and `claude-v1-instant` for others.
 
 ## Using with Window
+
 Make sure you have the [Window extension](https://windowai.io/) installed, then you can use `poetry run world --window`. Some models may be slow to respond, since the prompts are very long.
 
 ## Contributing
